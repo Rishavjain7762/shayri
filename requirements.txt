@@ -1,0 +1,11 @@
+langchain
+python-dotenv
+langchain_community
+langchain_core
+streamlit
+langchain_groq
+greenlet
+gtts
+pydub
+whisper
+torch
