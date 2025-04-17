@@ -15,7 +15,7 @@ llm = ChatGroq(groq_api_key=GROQ_API_KEY, model_name="llama3-70b-8192")
 # Create a prompt template
 prompt_template = PromptTemplate(
     input_variables=["words"],
-    template="Create a hindi shayri using the following words: {words}. The shayri should be creative, heartwarming, and coherent."
+    template="Create a hindi shayri using the following words: {words}. The shayri should be funny enough to make someone laugh hard."
 )
 
 # Create an LLMChain
